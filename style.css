@@ -1,0 +1,74 @@
+/*reset di partenza*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*sfondo*/
+body{
+   background-image: url("background.jpg");
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+/*contenitore generale*/
+.conteiner{
+    width: 65%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 50px auto;
+}
+/*intestazione*/
+div>img{
+    width: 200px;
+    margin: auto;
+    padding-top: 70px;
+    display: block;
+}
+
+div>h1{
+    text-align: center;
+    color: hwb(118 18% 0%);
+    margin: 0;
+}
+/*opzioni di navigazione*/
+.action{
+    background-color: hwb(118 18% 0%);
+    padding: 5px;
+    margin: 4px 50px;
+}
+
+div>form{
+    text-align: center;
+}
+/*elementi illustrativi*/
+.elementi{
+    margin: 15px 50px;
+    color: white;
+}
+
+#batteria1{
+    background-color: orange;
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+}
+
+#batteria2{
+    background-color: hwb(118 18% 0%);
+    border-radius: 5px;
+    width: 450px;
+    height: 20px;
+}
+
+#batteria3{
+    background-color: red;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+}
+/*modifica per carattere speciale (elementi illustrativi)*/
+.square{
+    font-size: 10px;
+}
